@@ -18,7 +18,7 @@
           <div class="perfil">
             <div class="avatar-container">
               <img v-if="avatarUrl" :src="avatarUrl" alt="Avatar" class="avatar" />
-              <div v-else class="avatar-placeholder">👨‍💻</div>
+              <div v-else class="avatar-placeholder"></div>
               <div class="status-online">
                 <span class="status-dot"></span> Online
               </div>
