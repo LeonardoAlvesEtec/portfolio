@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [build]
   command = "npm run build"
   publish = "dist"
@@ -16,4 +17,24 @@
 
 [build.environment]
   NODE_VERSION = "18"
+=======
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[build.environment]
+  NODE_VERSION = "18"
+>>>>>>> ddbc517d8a4ac43f4c4cc1d6de70cbec52fe8a47
   NPM_VERSION = "9"

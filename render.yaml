@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 services:
   - type: web
     name: portfolio
@@ -7,4 +8,15 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 18.17.0
+=======
+services:
+  - type: web
+    name: portfolio
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview
+    envVars:
+      - key: NODE_VERSION
+        value: 18.17.0
+>>>>>>> ddbc517d8a4ac43f4c4cc1d6de70cbec52fe8a47
     staticPublishPath: ./dist

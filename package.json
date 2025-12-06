@@ -1,13 +1,23 @@
 {
+<<<<<<< HEAD
   "name": "portfolio",
   "private": true,
   "version": "1.0.0",
+=======
+  "name": "portfolio-retro",
+  "private": true,
+  "version": "0.0.0",
+>>>>>>> ddbc517d8a4ac43f4c4cc1d6de70cbec52fe8a47
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+<<<<<<< HEAD
     "preview": "vite preview --port $PORT",
     "start": "vite preview --port $PORT"
+=======
+    "preview": "vite preview"
+>>>>>>> ddbc517d8a4ac43f4c4cc1d6de70cbec52fe8a47
   },
   "dependencies": {
     "vue": "^3.4.0"
@@ -17,7 +27,12 @@
     "vite": "^5.0.0"
   },
   "engines": {
+<<<<<<< HEAD
     "node": ">=20.0.0",
     "npm": ">=10.0.0"
+=======
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+>>>>>>> ddbc517d8a4ac43f4c4cc1d6de70cbec52fe8a47
   }
 }
